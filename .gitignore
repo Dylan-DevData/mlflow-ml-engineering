@@ -1,0 +1,31 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+.ipynb_checkpoints/
+
+# Local environment variables and editor/OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local MLflow tracking data and generated model files
+**/mlruns/
+**/mlflow.db
+*.db-shm
+*.db-wal
+**/model.pkl
+**/model.skops
+
+# Common local build and test outputs
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,8 @@
+python: "3.11"
+build-dependencies:
+  - pip
+  - setuptools
+  - wheels
+dependencies:
+  - -r requirements.txt
+  

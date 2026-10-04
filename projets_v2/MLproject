@@ -1,0 +1,12 @@
+name: model_heath
+python_env: python_env.yaml
+entry_points:
+  main:
+    parameters:
+      max_depth_param:
+        type: int
+        default: None
+      n_estimators_param:
+        type: int
+        default: 100
+    command: "python3 train_model.py {max_depth_param} {n_estimators_param}"
